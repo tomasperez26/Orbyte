@@ -81,6 +81,22 @@ export default function Home() {
             <img src="/images/shampoo.jpg" alt="Shampoo hipoalergénico para perros" className="producto-img" />
           </div>
         </section>
+        <section className="mapa">
+  <h2 className="subtitle">¿Dónde estamos?</h2>
+  <div className="mapa-contenedor">
+    <iframe
+      title="Ubicación Petshop La Huella"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.015974785162!2d-58.4836346!3d-34.5743947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb61cfb1b52a7%3A0xb7a97ddfa798e7a0!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1720090000000!5m2!1ses-419!2sar"
+      width="100%"
+      height="300"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+
       </main>
 
       <footer id="contacto" className="footer">
